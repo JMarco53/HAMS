@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AppointmentCreation">
+    <TextView
+        android:id="@+id/apt_backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:gravity="start"
+        android:text="@string/back"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:dividerThickness="10dp"
+        />
+
+    <EditText
+        android:id="@+id/search_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search by doctor name"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+        <CheckBox
+            android:id="@+id/cardiologist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cardiologist"/>
+
+        <CheckBox
+            android:id="@+id/dermatologist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dermatologist"/>
+
+        <CheckBox
+            android:id="@+id/ophthalmologist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ophthalmologist"/>
+
+        <CheckBox
+            android:id="@+id/orthopedic_surgeon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orthopedic Surgeon"/>
+
+        <CheckBox
+            android:id="@+id/pediatrician"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pediatrician"/>
+
+        <CheckBox
+            android:id="@+id/neurologist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neurologist"/>
+
+    </GridLayout>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"/>
+
+        <ListView
+            android:id="@+id/appointment_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/list_item"/>
+
+</LinearLayout>

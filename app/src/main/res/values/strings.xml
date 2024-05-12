@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Group5 project</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="health_card_number">Health Card Number</string>
+    <string name="choose_your_role">Choose your Role</string>
+    <string name="confirm">Confirm</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="enter_your_specialties">Enter your specialties...</string>
+    <string name="employee_number">Employee Number</string>
+    <string name="register_as_a_doctor">Register as a doctor</string>
+    <string name="register_as_a_patient">Register as a Patient</string>
+    <string name="logout">Logout</string>
+    <string name="select_specialties">Select specialties</string>
+    <string name="back_button">Back button</string>
+    <string name="back">Back</string>
+    <string name="password_requirements">Password Requirements:</string>
+    <string name="at_least_6_characters_long">• At least 6 characters long</string>
+    <string name="at_least_one_uppercase_letter_a_z">• At least one uppercase letter (A-Z)</string>
+    <string name="at_least_one_lowercase_letter_a_z">• At least one lowercase letter (a-z)</string>
+    <string name="at_least_one_digit_0_9">• At least one digit (0-9)</string>
+    <string name="role">Role</string>
+    <string name="current_inbox">Current Inbox</string>
+    <string name="rejected_inbox">Rejected Inbox</string>
+    <string name="welcome_admin">Welcome admin!</string>
+    <string name="user_detail">User Detail</string>
+    <string name="id">ID :</string>
+    <string name="id_text">ID text</string>
+    <string name="text">text</string>
+    <string name="appointments">Appointments</string>
+    <string name="detail">Detail</string>
+    <string name="date">Date</string>
+    <string name="approve_all">Approve All</string>
+    <string name="past_apt">Past Apt</string>
+    <string name="upcoming_appointments">Upcoming appointments</string>
+    <string name="reject">Reject</string>
+
+    <string-array name="dropdown_options">
+        <item>Patient</item>
+        <item>Doctor</item>
+    </string-array>
+</resources>
